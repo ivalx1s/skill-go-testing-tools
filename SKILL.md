@@ -1,6 +1,22 @@
 ---
 name: go-testing-tools
-description: Go testing toolkit with tuitestkit library. Closed-loop agent development cycle for Go applications. Covers test helpers, reducer tests, snapshot/golden file testing, mock executor patterns, view assertions. Triggers: Go test, bubbletea test, tuitestkit, go test helpers, reducer test, snapshot test go, golden file go, тесты го, го тест хелперы, тесты баблти, тест утилиты го, замкнутый цикл тестирования.
+description: >
+  Go testing toolkit with tuitestkit library and a closed-loop development
+  cycle for Go applications. Covers test helpers, reducer tests,
+  snapshot/golden testing, mock executor patterns, and view assertions.
+triggers:
+  - go test
+  - bubbletea test
+  - tuitestkit
+  - go test helpers
+  - reducer test
+  - snapshot test go
+  - golden file go
+  - тесты го
+  - го тест хелперы
+  - тесты баблти
+  - тест утилиты го
+  - замкнутый цикл тестирования
 ---
 
 # Go Testing Tools
