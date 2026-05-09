@@ -21,6 +21,7 @@ Test utilities as a Go module (`github.com/relux-works/skill-go-testing-tools/tu
 
 ### `references/` — Architecture Docs
 
+- `cross-platform-setup-and-credentials.md` — reusable pattern for cross-platform skill setup, install-state, and credential storage
 - `elm-architecture.md` — Why Elm makes TUI testable, State/Action/Reducer/View cycle
 - `mock-patterns.md` — CLI executor extraction, test doubles, composition patterns
 - `testing-pyramid.md` — 5-level pyramid: reducer → component → integration → snapshot → behavioral
