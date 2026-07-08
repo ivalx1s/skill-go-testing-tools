@@ -1,10 +1,10 @@
 # Go Testing Tools
 
-Agent skill + Go library for testing bubbletea TUI applications. Enables a **closed-loop agent development cycle**: write code, write tests, run, validate, fix — all autonomously.
+Agent skill + Go library for testing bubbletea TUI applications. Enables a **closed-loop agent development cycle**: write code, write tests, run, validate, fix, all autonomously.
 
 ## What's Inside
 
-### `tuitestkit/` — Go Library
+### `tuitestkit/`: Go Library
 
 Test utilities as a Go module (`github.com/relux-works/skill-go-testing-tools/tuitestkit`):
 
@@ -19,27 +19,27 @@ Test utilities as a Go module (`github.com/relux-works/skill-go-testing-tools/tu
 
 155 tests, zero external dependencies beyond bubbletea.
 
-### `references/` — Architecture Docs
+### `references/`: Architecture Docs
 
-- `cross-platform-setup-and-credentials.md` — reusable pattern for cross-platform skill setup, install-state, and credential storage
-- `elm-architecture.md` — Why Elm makes TUI testable, State/Action/Reducer/View cycle
-- `mock-patterns.md` — CLI executor extraction, test doubles, composition patterns
-- `testing-pyramid.md` — 5-level pyramid: reducer → component → integration → snapshot → behavioral
+- `cross-platform-setup-and-credentials.md`: reusable pattern for cross-platform skill setup, install-state, and credential storage
+- `elm-architecture.md`: Why Elm makes TUI testable, State/Action/Reducer/View cycle
+- `mock-patterns.md`: CLI executor extraction, test doubles, composition patterns
+- `testing-pyramid.md`: 5-level pyramid: reducer → component → integration → snapshot → behavioral
 
-### `assets/templates/` — Copy-Paste Templates
+### `assets/templates/`: Copy-Paste Templates
 
-- `reducer_test.go.tmpl` — Pure reducer test template
-- `component_test.go.tmpl` — Bubbletea screen test template
-- `snapshot_test.go.tmpl` — Golden file test template
-- `executor_interface.go.tmpl` — CLI executor interface pattern
-- `mock_executor.go.tmpl` — Mock executor with call recording
-- `PROJECT_STRUCTURE.md` — Recommended directory layout
+- `reducer_test.go.tmpl`: Pure reducer test template
+- `component_test.go.tmpl`: Bubbletea screen test template
+- `snapshot_test.go.tmpl`: Golden file test template
+- `executor_interface.go.tmpl`: CLI executor interface pattern
+- `mock_executor.go.tmpl`: Mock executor with call recording
+- `PROJECT_STRUCTURE.md`: Recommended directory layout
 
-### `scripts/` — Setup & Tooling
+### `scripts/`: Setup & Tooling
 
-- `setup.sh` — Install skill (symlinks to `~/.agents/skills/`, `~/.claude/skills/`, `~/.codex/skills/`)
-- `deinit.sh` — Remove symlinks
-- `check-tools.sh` — Verify Go version and bubbletea dependency
+- `setup.sh`: Install skill (symlinks to `~/.agents/skills/`, `~/.claude/skills/`, `~/.codex/skills/`)
+- `deinit.sh`: Remove symlinks
+- `check-tools.sh`: Verify Go version and bubbletea dependency
 
 ## Setup
 
